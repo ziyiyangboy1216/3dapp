@@ -24,7 +24,7 @@
     -->
 
     <!-- Use a light box to view images in the gallery -->
-    <link rel="stylesheet" type="text/css" href="application\css\jquery.fancybox.min.css">
+    <link rel="stylesheet" type="text/css" href="../application/css/jquery.fancybox.min.css">
 
     <title>Web 3D Applications coca—cola</title>
 
@@ -417,29 +417,30 @@
     </div>
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="../application/scripts/js/jquery-3.4.1.js"></script>
-    <script src="../application/scripts/js/popper.min.js"></script>
+    <script src="../application/js/jquery-3.4.1.js"></script>
+    <script src="../application/js/popper.min.js"></script>
     <!--<script src="js/bootstrap.js"></script>-->
-    <script src="../application/scripts/js/bootstrap-4.4.1.js"></script>
+    <script src="../application/js/bootstrap-4.4.1.js"></script>
 
     <!-- Include the x3dom JavaScript -->
-    <script src='../application/scripts/js/x3dom.js'></script>
+    <script src='../application/js/x3dom.js'></script>
 
     <!-- Custom JavaScript code for your 3d App -->
     <!-- Also, intialises popovers-->
-    <script src="../application/scripts/js/custom.js" crossorigin="anonymous"></script>
+    <script src="../application/js/custom.js" crossorigin="anonymous"></script>
 
     <!-- JavaScript to swap for SPA and restyle -->
-    <script src="../application/scripts/js/swap_restyle.js"></script>
+    <script src="../application/js/swap_restyle.js"></script>
 
     <!-- JavaScript and PHP based Gallery generator  -->
-    <script src="../application/scripts/js/gallery_generator.js"></script>
+    <script src="../application/js/gallery_generator.js"></script>
 
     <!-- JQuery code to get content data from a backend JSON file -->
-    <script src="../application/scripts/js/getJsonData.js"></script>
+    <script src="../application/js/getJsonData.js"></script>
 
     <!--fancyBox3 => http://fancyapps.com/fancybox/3/ -->
-    <script src="../application/scripts/js/jquery.fancybox.min.js"></script>
+    <script src="../application/js/jquery.fancybox.min.js"></script>
+
 
   </body>
 </html>

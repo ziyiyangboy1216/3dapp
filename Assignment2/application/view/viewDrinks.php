@@ -41,7 +41,7 @@
                 // Debug
                 console.log('Selected brand model:', selection);
                 // Build a Url path to the php model used to read the drinks brand data
-                var brandUrl = "../model/modelDrinkDetails.php?brand=" + selection;
+                var brandUrl = "../application/model/modelDrinkDetails.php?brand=" + selection;
                 // Debug
                 console.log('URL to PHP Model is:', brandUrl);
                 // Fire the AJAX call with the .getJSON function to get the service response from the Url (to the web server)

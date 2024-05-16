@@ -1,21 +1,21 @@
 <?php
 echo '{ "users":[
             {
-                "firstName":"Martin",
-                "lastName":"White",
+                "firstName":"Mary",
+                "lastName":"Job",
                 "joined": {
                     "month":"July",
-                    "day":1,
-                    "year":1989
+                    "day":12,
+                    "year":2002
                 }
             },
             {
-                "firstName":"Zeeshan",
-                "lastName":"Patoli",
+                "firstName":"Kevin",
+                "lastName":"Liu",
                 "joined": {
                     "month":"January",
-                    "day":12,
-                    "year":2012
+                    "day":28,
+                    "year":2002
                 }
             }
     ]}

@@ -15,7 +15,6 @@ class Controller {
 		// Determine what page you are on
 		$this->$pageMethod();
 	}
-	// Load the home page mmethod — this method is loaded by default — http://localhost:8888/3D_Apps_2019/lab9/index.php/
 	// The view here is my Coca Cola Virtual Museum, which s simply a repository of all the things we have done from lab 1 to Lab 8
     function home()
 	{
@@ -30,15 +29,6 @@ class Controller {
 		// echo ($data);
 
 	}
-
-	// Drinks can images page method — you can test this method with: 
-	// http://localhost:8888/3D_Apps_2019/lab9/index.php/apidrinksimages
-	function apiDrinksImages()
-	{
-		$data = $this->model->model3D_info();
-		$this->load->view('view3DAppTest_2', $data);
-	}
-
 	// Note the way that the Model class is written, such that the constructor in the Model 
 	// makes a conection to the database when the new Model class in instatiated the constructor above.
 	// These three methods folling are only examples of what you could do to play aorund with storing and 
@@ -54,12 +44,7 @@ class Controller {
 		$data = $this->model->dbInsertData();
 	   	$this->load->view('viewMessage', $data);
 	}  
-	function apiGetData()
-	{
-		$data = $this->model->dbGetData();
-		$this->load->view('view3DAppData', $data);
-	}  	
-	
+
 	// New methods for Part C of Lab 7 Tutorial, which use AJAX
 	// Flickr API — this is use just to demtsrate that you can iuntegrated data from third oarty sources
 	function apiGetFlickrFeed()
